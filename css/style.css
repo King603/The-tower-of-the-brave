@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.center {
+  height: 460px;
+  width: 700px;
+  margin: 100px auto;
+  background-color: rgb(150, 147, 147);
+}
+
+.GameBox {
+  height: 460px;
+  width: 460px;
+  margin: 0 auto;
+  zoom: 1;
+  box-sizing: border-box;
+  background-image: url(../img/q.png);
+  padding: 10px;
+}
+
+.emeny1 {
+  background-image: url(../img/enemy/1.png);
+}
+
+.emeny2 {
+  background-image: url(../img/enemy/2.png);
+}
+
+.emeny3 {
+  background-image: url(../img/enemy/3.png);
+}
+
+.emeny4 {
+  background-image: url(../img/enemy/4.png);
+}
+
+.emeny5 {
+  background-image: url(../img/enemy/5.png);
+}
+
+.emeny6 {
+  background-image: url(../img/enemy/6.png);
+}
+
+.emeny7 {
+  background-image: url(../img/enemy/7.png);
+}
+
+.emeny8 {
+  background-image: url(../img/enemy/8.png);
+}
+
+.emeny9 {
+  background-image: url(../img/enemy/9.png);
+}
+
+.grid {
+  height: 40px;
+  width: 40px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  float: left;
+}
+
+.ground {
+  background-image: url(../img/ground.png);
+}
+
+.wall {
+  background-image: url(../img/wall.png);
+}
+
+.door1 {
+  background-image: url(../img/door/door_1.png);
+}
+
+.door2 {
+  background-image: url(../img/door/door_2.png);
+}
+
+.hero {
+  background-image: url(../img/hero.png);
+}
+
+.stairs1 {
+  background-image: url(../img/stairs/stairs_1.png);
+}
+
+.stairs2 {
+  background-image: url(../img/stairs/stairs_2.png);
+}
+
+.props1 {
+  background-image: url(../img/attribute/bz.png);
+}
+
+.props2 {
+  background-image: url(../img/attribute/dun.png);
+}
+
+.props3 {
+  background-image: url(../img/attribute/j.png);
+}
+
+.props4 {
+  background-image: url(../img/attribute/jl.png);
+}
+
+.props5 {
+  background-image: url(../img/potion/potion_1.png);
+}
+
+.props6 {
+  background-image: url(../img/potion/potion_2.png);
+}
+
+.props7 {
+  background-image: url(../img/key/key_1.png);
+}
+
+.props8 {
+  background-image: url(../img/key/key_2.png);
+}
+
+.censhu {
+  height: 40px;
+  width: 80%;
+  text-align: center;
+  margin: 30px auto;
+  line-height: 40px;
+  color: white;
+  background-color: rgb(110, 106, 106);
+}
+
+.die {
+  height: 100px;
+  width: 200px;
+  background-color: red;
+  font-size: 18px;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 150px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 20px;
+}
+
+.agin {
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+  background-color: rgb(84, 81, 81);
+  border-radius: 0 0 20px 20px;
+}
+
+.informationBox {
+  height: 460px;
+  width: 120px;
+  margin-left: -130px;
+  margin-top: -10px;
+  position: absolute;
+  background-color: rgb(236, 231, 60);
+}
+
+.keynumber {
+  height: 90px;
+  width: 80%;
+  margin: 30px auto;
+  color: white;
+  background-color: rgb(110, 106, 106);
+}
+
+.views {
+  height: 150px;
+  width: 80%;
+  margin: 30px auto;
+  color: white;
+  background-color: rgb(110, 106, 106);
+}
+
+.onceaggin {
+  height: 40px;
+  width: 80%;
+  background-color: rgb(238, 116, 116);
+  text-align: center;
+  line-height: 40px;
+  margin: 0 auto;
+  cursor: pointer;
+}
